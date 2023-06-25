@@ -29,7 +29,7 @@
                 <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
 
                 <!-- ------------------------------------------------------------ -->
-                <!-- ------------------che cos'è questo button ?----------------- -->
+                <!-- ------------ *** Che cos'è questo button? *** -------------- -->
                 <!-- ------------------------------------------------------------ -->
                 <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,43 +39,47 @@
                 <!-- ------------------------------------------------------------ -->
 
                 <form class="d-flex flex-grow-1">
-                    <!-- ho aggiunto flex grow  -->
-                    <input class="form-control" type="search" placeholder="Prova a cercare:Lezioni di laravel" aria-label="Search">
+                    <!-- ho aggiunto flex grow 1 al padre  -->
+                    <input class="form-control" type="search" placeholder=" Prova a cercare:Lezioni di laravel" aria-label="Search">
+                    
                     <button class="btn" type="submit"><i class="fa-solid fa-bars"></i></button>
                     <button class="btn" type="submit"><i class="fa-solid fa-circle-question"></i></button>
                     <button class="btn" type="submit"><i class="fa-solid fa-ellipsis-vertical"></i></button>
                     <button class="btn" type="submit"><i class="fa-sharp fa-solid fa-bell"></i></button>
-
                 </form>
-            </div>
             </div>
         </nav>
 
     </header>
 
-    <main>
-        <aside>acdv
+    <main class=" ">
+        <!-- dentro il container principale ho creato 2 div, 1 x menu laterale
+        l'altra per il main content ho dato il d-flex al container e flex grow 
+        al main container conten -->
+        <div class="container-fluid  d-flex">
+            <!-- menu laterale -->
+            <div class="ama-nav-bar">menu laterale
 
-        </aside>
-    <section class="hero">
-
-    </section>
-    <section class="main-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-8">dsdc
-
-                </div>
-                <div class="col-4">adcdc
-
-                </div>
             </div>
+            <!-- main container content: f-grow overflow auto -->
+            <div class="ama-main-container-content flex-grow-1 overflow-auto d-flex flex-column">
+                <!-- dentro creo 2 div una per hero e l'altra per il contenuto con flex grow -->
+                <div class="ama-hero">hero
+
+                </div>
+                <div class="ama-sections-content d-flex flex-grow-1 overflow-auto">section content 
+
+                </div>
+                
+            </div>
+
         </div>
 
-    </section>
+        
     </main>
-    <footer></footer>
 
+
+   
 </body>
 
 </html>

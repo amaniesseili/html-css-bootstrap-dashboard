@@ -1,0 +1,55 @@
+
+/* --------------------  Utilities -------------------*/
+/* ----------------------- Layout -------------------- */
+:root{
+    --bs-primary: rgb(rgb(27, 114, 232));
+    --bs-secondary: rgb(rgb(7, 42, 64));
+    --bs-primary-rgb: 27,114,232;
+    --bs-secondary-rgb: 7,42,64;
+    --ama-header:var(#993636);
+}
+
+[ class*="col-"]{
+
+    /* solo per visualizzare le colonne  */
+    min-height: 300px;
+    border: 1px solid red;
+}
+
+header{
+    min-height: 80px;
+    background-color: var(--ama-header) ;
+}
+aside{
+    min-width: 100px;
+    background-color: var(--ama-header);
+}
+/*------------------- body ------------------ */
+
+main{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.ama-nav-bar{
+    min-width: 150px;
+    min-height: 100px;
+    border: 2px solid green;
+}
+.ama-main-container-content{
+    min-width: 200px;
+    height: 100vh;
+    border: 2px solid red;
+
+}
+
+.ama-hero{
+    min-height: 150px;
+    border: 2px solid red;
+}
+.ama-sections-content{
+    border: 2px solid rgb(123, 0, 255);
+
+}
