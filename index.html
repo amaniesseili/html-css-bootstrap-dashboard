@@ -28,16 +28,6 @@
                 <!-- logo boolean -->
                 <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
 
-                <!-- ------------------------------------------------------------ -->
-                <!-- ------------ *** Che cos'è questo button? *** -------------- -->
-                <!-- ------------------------------------------------------------ -->
-                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
-                <!-- ------------------------------------------------------------ -->
-                <!-- ------------------------------------------------------------ -->
-
                 <form class="d-flex flex-grow-1">
                     <!-- ho aggiunto flex grow 1 al padre  -->
                     <input class="form-control" type="search" placeholder=" Prova a cercare:Lezioni di laravel" aria-label="Search">
@@ -58,7 +48,18 @@
         al main container conten -->
         <div class="container-fluid  d-flex">
             <!-- menu laterale -->
-            <div class="ama-nav-bar">menu laterale
+            <div class="sidebar px-md-3 py-4 text-white">
+                <ul class="nav nav-hover flex-column">
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-house"></i><span class="d-none d-md-inline-block">Home</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa-sharp fa-solid fa-sliders"></i><span class="d-none d-md-inline-block">Stats</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-signal"></i><span class="d-none d-md-inline-block">Signals</span></a></li>
+                    
+                </ul>
+                
+                <ul class="nav nav-hover flex-column">
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-lock"></i></i><span class="d-none d-md-inline-block">Admin</span></a></li>
+                    
+                </ul>
 
             </div>
             <!-- main container content: f-grow overflow auto -->
