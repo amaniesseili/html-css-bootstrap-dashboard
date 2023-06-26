@@ -71,10 +71,7 @@ body{
 }
 /* ---------------------------------- */
 /* ---------------section content--------- */
-.ama-sections-content{
-    /* border: 2px solid rgb(123, 0, 255); */
 
-}
 .ama-angles-right{
     background-color: #F26052;
     padding: .3rem;
@@ -86,6 +83,10 @@ body{
     
 }
 
+.ama-input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* ----------- responsive ---------------- */
 /* -------------sidebar ---------------- */
