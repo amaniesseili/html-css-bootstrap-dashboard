@@ -58,30 +58,212 @@
                 
                 <ul class="nav nav-hover flex-column">
                     <li class="nav-item"><a class="nav-link" href=""><i class="fa-solid fa-lock"></i></i><span class="d-none d-md-inline-block">Admin</span></a></li>
-                    
                 </ul>
 
             </div>
             <!-- main container content: f-grow overflow auto -->
             <div class="ama-main-container-content flex-grow-1 overflow-auto d-flex flex-column">
                 <!-- dentro creo 2 div una per hero e l'altra per il contenuto con flex grow -->
-                <div class="ama-hero">hero
-
-                </div>
-                <div class="ama-sections-content d-flex flex-grow-1 overflow-auto">
+                <div class="ama-hero  px-1 py-4 text-white ">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-8"> Prossimi classi e F.A.Q
-
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center">
+                                    <h3>Boolean</h3>
+                                    <span class="badge ms-2 rounded-5">Piano blaze</span>
+                                </div>
+                                <div>
+                                    <span class="badge ms-2 rounded-5">3 app</span>
+                                    <button class="btn" type="submit"><i class="fa-solid fa-angles-right"></i></button>
+                                    <span class="badge ms-2 rounded-5 d-md-none d-inline-block"> + </span>
+                                    <span class="badge ms-2 rounded-5 d-none d-md-inline-block">Boolean mobile app</span>
+                                    <span class="badge ms-2 rounded-5 d-none d-md-inline-block">Boolean web app</span>
+                                    <span class="badge ms-2 rounded-5 d-none d-md-inline-block">Boolean blog app</span>         
+                                </div>
                             </div>
-                            <div class="col-4">To do 
+                            <div class="col-md-4">
+                                <h6>Studenti online negli ultimi minuti</h6>
+                                <h3>125</h3>
+                            </div>
 
+                            <!-- come riordino i div in responsive? io o messo order md 1-->
+                            <div class="col-md-2 order-md-1 d-flex">
+                                <h6>Nuovo studente </h6>
+                                <div class="ms-2">
+                                    <button class="btn text-white" type="submit" style="border: 1px solid white;">+</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
+                    
+                    <section class="text-black">
+                        <div class="ama-sections-content d-flex flex-grow-1 overflow-auto">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-8"> 
+                                        <div class="card mt-5">
+                                            <div class="card-header">
+                                                <h5>Prossime classi </h5>
+                                            </div>
+                                            <div class="card-body" style="font-size: 15px;">
+                                                <div class="border-bottom d-flex ">
+                                                    <h6 class="card-title ama-card flex-grow-1 ">Nome</h6>
+                                                    <h6 class="card-title ama-card d-none d-md-inline-block">Data inizio</h6>
+                                                    <h6 class="card-title ama-card d-none d-md-inline-block">ROI</h6>
+                                                    <h6 class="card-title ama-card">Stato</h6>
+                                                    <h6 class="card-title ama-card">Azioni</h6>
+                                                </div>
+                                                <div class="border-bottom d-flex mt-2 mb-2 ">
+                                                    <div class="card-title ama-card flex-grow-1"><i class="fa-solid fa-angles-right ama-angles-right "></i>Classe 75</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">15 Feb 2021</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20%</div>
+                                                    <div class="card-title ama-card"><button type="button" class="btn btn-success p-1" style="font-size: 10px;">Done</button>
+                                                    </div>
+                                                    <!-- ho messo me-1 per fare le scritte uno sotto l'altro ma sicuramente c'è un altro mondo ? -->
+                                                    <div class="card-title ama-card  me-1 ">
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="border-bottom d-flex mt-2 mb-2 ">
+                                                    <div class="card-title ama-card flex-grow-1"><i class="fa-solid fa-angles-right ama-angles-right "></i>Classe 76</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">16 Feb 2021</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20%</div>
+                                                    <div class="card-title ama-card"><button type="button" class="btn btn-success p-1" style="font-size: 10px;">Done</button>
+                                                    </div>
+                                                    <!-- ho messo me-1 per fare le scritte uno sotto l'altro ma sicuramente c'è un altro mondo ? -->
+                                                    <div class="card-title ama-card  me-1 ">
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="border-bottom d-flex mt-2 mb-2 ">
+                                                    <div class="card-title ama-card flex-grow-1"><i class="fa-solid fa-angles-right ama-angles-right "></i>Classe 77</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">17 Feb 2021</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20%</div>
+                                                    <div class="card-title ama-card"><button type="button" class="btn btn-warning p-1" style="font-size: 10px;">Process</button>
+                                                    </div>
+                                                    <!-- ho messo me-1 per fare le scritte uno sotto l'altro ma sicuramente c'è un altro mondo ? -->
+                                                    <div class="card-title ama-card  me-1 ">
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+                                                    </div> 
+                                                </div>
+                                                <div class="border-bottom d-flex mt-2 mb-2 ">
+                                                    <div class="card-title ama-card flex-grow-1"><i class="fa-solid fa-angles-right ama-angles-right "></i>Classe 78</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">18 Feb 2021</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20%</div>
+                                                    <div class="card-title ama-card"><button type="button" class="btn btn-success p-1" style="font-size: 10px;">Done</button>
+                                                    </div>
+                                                    <!-- ho messo me-1 per fare le scritte uno sotto l'altro ma sicuramente c'è un altro mondo ? -->
+                                                    <div class="card-title ama-card  me-1 ">
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="border-bottom d-flex mt-2 mb-2 ">
+                                                    <div class="card-title ama-card flex-grow-1"><i class="fa-solid fa-angles-right ama-angles-right "></i>Classe 79</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">19 Feb 2021</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20%</div>
+                                                    <div class="card-title ama-card"><button type="button" class="btn btn-danger p-1" style="font-size: 10px;">Failed</button>
+                                                    </div>
+                                                    <!-- ho messo me-1 per fare le scritte uno sotto l'altro ma sicuramente c'è un altro mondo ? -->
+                                                    <div class="card-title ama-card  me-1 ">
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="border-bottom d-flex mt-2 mb-2 ">
+                                                    <div class="card-title ama-card flex-grow-1"><i class="fa-solid fa-angles-right ama-angles-right "></i>Classe 80</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20 Feb 2021</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20%</div>
+                                                    <div class="card-title ama-card"><button type="button" class="btn btn-success p-1" style="font-size: 10px;">Done</button>
+                                                    </div>
+                                                    <!-- ho messo me-1 per fare le scritte uno sotto l'altro ma sicuramente c'è un altro mondo ? -->
+                                                    <div class="card-title ama-card  me-1 ">
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="border-bottom d-flex mt-2 mb-2 ">
+                                                    <div class="card-title ama-card flex-grow-1"><i class="fa-solid fa-angles-right ama-angles-right "></i>Classe 81</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">21 Feb 2021</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20%</div>
+                                                    <div class="card-title ama-card"><button type="button" class="btn btn-danger p-1" style="font-size: 10px;">Failed</button>
+                                                    </div>
+                                                    <!-- ho messo me-1 per fare le scritte uno sotto l'altro ma sicuramente c'è un altro mondo ? -->
+                                                    <div class="card-title ama-card  me-1 ">
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="border-bottom d-flex mt-2 mb-2 ">
+                                                    <div class="card-title ama-card flex-grow-1"><i class="fa-solid fa-angles-right ama-angles-right "></i>Classe 82</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">22 Feb 2021</div>
+                                                    <div class="card-title ama-card d-none d-md-inline-block">20%</div>
+                                                    <div class="card-title ama-card"><button type="button" class="btn btn-success p-1" style="font-size: 10px;">Done</button>
+                                                    </div>
+                                                    <!-- ho messo me-1 per fare le scritte uno sotto l'altro ma sicuramente c'è un altro mondo ? -->
+                                                    <div class="card-title ama-card  me-1 ">
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-pencil"></i></button>
+                                                        <button class="btn" type="submit" style="border: 1px solid black; font-size: 10px;"><i class="fa-solid fa-trash"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                </div>
+                                    </div>
+                                    <div class="col-4">To do 
+        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8 mt-4">
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <h5>F.A.Q</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                            Come raggiungere un nuovo studente
+                                                        </button>
+                                                        </h2>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                                Come posso accedere alle informzioni del mio account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                    <!-- perche nn si vede l'ultimo item ? -->
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                                Come posso accedere alle informzioni del mio account?
+                                                            </button>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+        
+                        </div>
+        
+                        
+              
+                    </section>
+                
+
                 
             </div>
 
