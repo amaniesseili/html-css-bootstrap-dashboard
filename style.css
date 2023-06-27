@@ -2,11 +2,11 @@
 /* --------------------  Utilities -------------------*/
 /* ----------------------- Layout -------------------- */
 :root{
-    --bs-primary: rgb(rgb(27, 114, 232));
+    --bs-primary: rgb(27, 114, 232);
     --bs-secondary: rgb(rgb(7, 42, 64));
     --bs-primary-rgb: 27,114,232;
     --bs-secondary-rgb: 7,42,64;
-    --ama-header:var(#993636);
+    --ama-header:#993636;
 }
 
 [ class*="col-"]{
@@ -18,7 +18,7 @@
 }
 
 header{
-    min-height: 80px;
+    /* min-height: 80px; */
     background-color: var(--ama-header) ;
 }
 
@@ -52,8 +52,8 @@ body{
 /* ----------------------------------- */
 
 .ama-main-container-content{
-    min-width: 200px;
-    height: 100vh;
+    
+    height: calc(100vh - 80px);
     /* border: 5px solid rgb(225, 98, 98); */
 
 }
